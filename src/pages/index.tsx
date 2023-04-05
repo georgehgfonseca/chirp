@@ -26,10 +26,9 @@ const Home: NextPage = () => {
         </div>
         <div>
           {data?.map((post) => {
-            <div key={post.id}>{post.content}</div>;
+            return <div key={post.id}>{post.content}</div>;
           })}
         </div>
-        <SignIn path="/sign-in" routing="path" signUpUrl="/sign-up" />
       </main>
     </>
   );
