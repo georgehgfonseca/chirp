@@ -3,7 +3,6 @@ import { type NextPage } from "next";
 
 import { api } from "~/utils/api";
 
-import Image from "next/image";
 import { LoadingPage, LoadingSpinner } from "~/components/loading";
 import { useState } from "react";
 import { toast } from "react-hot-toast";
@@ -117,7 +116,7 @@ const Home: NextPage = () => {
 
       <Feed />
       <div className="flex items-center justify-between p-4 text-xl">
-        <a href="https://github.com/t3dotgg/chirp">
+        <a href="https://github.com/georgehgfonseca/chirp">
           <div className="flex items-center justify-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -132,7 +131,7 @@ const Home: NextPage = () => {
           </div>
         </a>
         <span>
-          <a href="https://patreon.com/t3dotgg">🐦 Chirp Blue</a>
+          <a href="https://www.linkedin.com/in/georgefonseca/">🚀 EmojiVerse</a>
         </span>
       </div>
     </PageLayout>
